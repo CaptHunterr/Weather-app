@@ -1,0 +1,86 @@
+body{
+  background-color: #d8d1d1;
+}
+.container{
+  height: 100vh;
+  width: 10vw;
+  margin: 0%;
+  padding: 0%;
+}
+.box{
+  height: 550px;
+  width: 350px;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+input{
+  width: 200px;
+  height: 43px;
+}
+input,button{
+  padding: 10px;
+  font-size: medium;
+  margin-left: 3px;
+}
+.form-control{
+  display: flex;
+  position: absolute;
+  top: 7%;
+  left: 18%;
+  align-items: center;
+  justify-content: center;
+}
+.info{
+  position: absolute;
+  top: 15%;
+  left: 16%;
+  height: 350px;
+  width: 238px;
+  margin: 10px;
+  display: flex;
+  background: black;
+  opacity: 0.6;
+}
+#location{
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 77px;
+  color: white;
+}
+#today{
+  position: absolute;
+  margin-left: 8px;
+  top: 16%;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+#cloud,.temp,#season,#min_max{
+  position: absolute;
+  top: 35%;
+  margin-left: 80px;
+  color: white;
+}
+
+
+.temp{
+  top: 50%;
+  font-weight: bold;
+  margin-left: 75px;
+}
+#season{
+  top: 60%;
+  margin-left: 90px;
+  font-size: larger;
+  font-weight: bold;
+}
+#min_max{
+  top: 75%;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 17px;
+}
+#cloud{
+  color: white;
+}
